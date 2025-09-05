@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-05 15:41:19.472105",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fields_section",
+  "game",
+  "date",
+  "location",
+  "score",
+  "opponent"
+ ],
+ "fields": [
+  {
+   "fieldname": "fields_section",
+   "fieldtype": "Section Break",
+   "label": "Fields"
+  },
+  {
+   "fieldname": "game",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Game",
+   "options": "Game"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location"
+  },
+  {
+   "fieldname": "score",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Score"
+  },
+  {
+   "fieldname": "opponent",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Opponent"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-09-05 15:43:06.330618",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Athlete Games",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

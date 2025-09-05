@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-05 13:54:27.009163",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fields_section",
+  "first_name",
+  "last_name",
+  "middle_name",
+  "full_name",
+  "birthday",
+  "age",
+  "sports",
+  "athlete_games",
+  "athlete_awards"
+ ],
+ "fields": [
+  {
+   "fieldname": "fields_section",
+   "fieldtype": "Section Break",
+   "label": "Fields"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "sports",
+   "fieldtype": "Link",
+   "label": "Sports",
+   "options": "Sport"
+  },
+  {
+   "fieldname": "birthday",
+   "fieldtype": "Date",
+   "label": "Birthday"
+  },
+  {
+   "fieldname": "athlete_games",
+   "fieldtype": "Table",
+   "label": "Athlete Games",
+   "options": "Athlete Games"
+  },
+  {
+   "fieldname": "athlete_awards",
+   "fieldtype": "Table",
+   "label": "Athlete Awards",
+   "options": "Athlete Awards"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-05 15:45:42.319165",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Athlete",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name"
+}
