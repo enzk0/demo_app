@@ -5,6 +5,21 @@ app_description = "For training"
 app_email = "renzoroel24@gmail.com"
 app_license = "mit"
 
+
+# demo_app/hooks.py
+
+fixtures = [
+    {"dt": "Custom Field"},
+    {"dt": "Property Setter"},
+    {"dt": "Print Format"},
+    {"dt": "Client Script"},
+    {"dt": "Server Script"},
+    {"dt": "Role"},
+    {"dt": "Role Permission for Page and Report"},
+    {"dt": "Workspace"},
+]
+
+
 # Apps
 # ------------------
 
