@@ -1,13 +1,13 @@
 [
- {
-  "docstatus": 0,
-  "doctype": "Role Permission for Page and Report",
-  "enable_prepared_report": 0,
-  "modified": "2025-09-05 11:16:42.811945",
-  "name": "Role Permission for Page and Report",
-  "page": null,
-  "report": null,
-  "roles": [],
-  "set_role_for": ""
- }
+  {
+    "docstatus": 0,
+    "doctype": "Role Permission for Page and Report",
+    "enable_prepared_report": 0,
+    "modified": "2025-09-05 11:16:42.811945",
+    "name": "Role Permission for Page and Report",
+    "page": null,
+    "report": null,
+    "roles": [],
+    "set_role_for": "Page"
+  }
 ]
