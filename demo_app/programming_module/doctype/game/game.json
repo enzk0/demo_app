@@ -10,7 +10,8 @@
   "start_date_and_time",
   "end_date_and_time",
   "duration",
-  "competition"
+  "competition",
+  "athletes_list"
  ],
  "fields": [
   {
@@ -43,12 +44,18 @@
    "fieldtype": "Link",
    "label": "Competition",
    "options": "Competition"
+  },
+  {
+   "fieldname": "athletes_list",
+   "fieldtype": "Data",
+   "label": "Athletes List",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-05 15:28:33.239818",
+ "modified": "2025-09-06 17:09:06.830965",
  "modified_by": "Administrator",
  "module": "Programming Module",
  "name": "Game",

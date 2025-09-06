@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:full_name",
  "creation": "2025-09-05 13:54:27.009163",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -40,7 +41,8 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Full Name"
+   "label": "Full Name",
+   "unique": 1
   },
   {
    "fieldname": "age",
@@ -74,10 +76,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-09-05 15:45:42.319165",
+ "modified": "2025-09-06 15:43:12.708925",
  "modified_by": "Administrator",
  "module": "Programming Module",
  "name": "Athlete",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

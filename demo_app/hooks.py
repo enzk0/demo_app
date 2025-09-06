@@ -19,7 +19,12 @@ fixtures = [
     {"dt": "Workspace"},
 ]
 
-
+doc_events = {
+    "Game": {
+        "validate": "demo_app.demo_app.programming_module.doctype.game.game.update_athletes_list",
+        "before_save": "demo_app.demo_app.programming_module.doctype.game.game.update_athletes_list"
+    }
+}
 # Apps
 # ------------------
 
