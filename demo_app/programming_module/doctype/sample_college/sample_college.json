@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-07 16:01:46.716026",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "kompletong_pangalan",
+  "pangalang_panggitna",
+  "apilyedo",
+  "pangalan",
+  "taon_ng_pag_aaral",
+  "section_break_ehfe",
+  "initial_payment",
+  "birthdate",
+  "age",
+  "course",
+  "attach"
+ ],
+ "fields": [
+  {
+   "fieldname": "kompletong_pangalan",
+   "fieldtype": "Data",
+   "label": "Kompletong Pangalan"
+  },
+  {
+   "fieldname": "pangalang_panggitna",
+   "fieldtype": "Data",
+   "label": "Pangalang Panggitna"
+  },
+  {
+   "fieldname": "apilyedo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Apilyedo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pangalan",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pangalan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "taon_ng_pag_aaral",
+   "fieldtype": "Link",
+   "label": "Taon ng Pag aaral",
+   "options": "Taon ng Pag-aaral",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_ehfe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "initial_payment",
+   "fieldtype": "Int",
+   "label": "Initial Payment"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "label": "Course",
+   "options": "Course",
+   "reqd": 1
+  },
+  {
+   "fieldname": "birthdate",
+   "fieldtype": "Date",
+   "label": "Birthdate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-07 17:06:10.551985",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Sample College",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
